@@ -1,9 +1,10 @@
 import React from 'react';
 
 function App() {
+  const element = <h1>Hello, world!</h1>;
   return (
     <div className="App">
-      <h1>I can learn react and want to get a job. </h1>
+      <h1>{element}</h1>
     </div>
   );
 }

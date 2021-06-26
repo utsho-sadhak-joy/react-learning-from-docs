@@ -6,7 +6,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <h2>utsho</h2> */}
+    <h2>utsho</h2>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

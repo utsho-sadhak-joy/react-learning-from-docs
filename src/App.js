@@ -1,25 +1,26 @@
-// import userEvent from '@testing-library/user-event';
 import React from 'react';
 
 
-function fahim (joy) {
-  return joy.you + ' ' + joy.me;
+function makingName(user){
+  return user.first + ' ' + user.last;
 }
 
-const joy = {
-  you: 'joy',
-  me: 'dhangra'
-};
+
+const user = {
+  first:'joy',
+  last:'dhangra',
+}
 
 
-const waw = (
-  <h1>{fahim(joy)}</h1>
-)
+const show =(
+  <h1>How are you {makingName(user)}?</h1>
+);
 
 function App() {
   return (
     <div className="App">
-      <h1>{waw}</h1>
+      <h1>{show}</h1>
+
     </div>
   );
 }

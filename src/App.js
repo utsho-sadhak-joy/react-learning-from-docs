@@ -16,6 +16,10 @@ const show =(
   <h1>How are you {makingName(user)}?</h1>
 );
 
+
+setInterval(tick, 1000);
+
+
 function App() {
   return (
     <div className="App">

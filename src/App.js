@@ -17,7 +17,6 @@ const show =(
 );
 
 
-setInterval(tick, 1000);
 
 
 function App() {

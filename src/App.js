@@ -1,29 +1,25 @@
+// import userEvent from '@testing-library/user-event';
 import React from 'react';
 
 
-// declareing a js function
-function formatName(user) {
-  return user.firstName + ' ' + user.lastName;
+function fahim (joy) {
+  return joy.you + ' ' + joy.me;
 }
 
-const user = {
-  firstName: 'Utsho',
-  lastName: 'Sadhak'
+const joy = {
+  you: 'joy',
+  me: 'dhangra'
 };
 
-const element = (
-  <h1>
-    Hello, {formatName(user)}!
-  </h1>
-);
 
-
-
+const waw = (
+  <h1>{fahim(joy)}</h1>
+)
 
 function App() {
   return (
     <div className="App">
-      <h1>{element}</h1>
+      <h1>{waw}</h1>
     </div>
   );
 }
